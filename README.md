@@ -11,16 +11,23 @@ https://ollama.com
 After installing Ollama, pull a model:
 
 ollama pull llama3.2:3b
+
 ollama list
+
 ollama serve
 
 📦 Install Python Dependencies
+
 Clone the repository:
+
 git clone https://github.com/jaggpython/mcp_project
 
 cd mcp-project
+
 python -m venv venv
+
 Windows
+
 venv\Scripts\activate
 
 macOS / Linux
