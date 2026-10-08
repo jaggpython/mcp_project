@@ -24,7 +24,7 @@ git clone https://github.com/jaggpython/mcp_project
 
 cd mcp-project
 
-python -m venv venv
+python3 -m venv venv
 
 Windows
 
@@ -40,11 +40,11 @@ pip install -r requirements.txt
 
 Run the Application
 
-python -m server.mcp_server
+python3 -m server.mcp_server
 
-python client/client.py
+python3 client/client.py
 
-python -m uvicorn server.app:app --reload --port 8000
+python3 -m uvicorn server.app:app --reload --port 8000
 
 streamlit run streamlit_app.py
 
